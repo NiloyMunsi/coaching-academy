@@ -1,0 +1,15 @@
+.profile-pic{
+    height: 200px;
+    width: 200px;
+    border-radius: 100%;
+}
+.person-container{
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 20px;
+}
+.person{
+    padding: 5px;
+    border-radius: 5px;
+}
