@@ -10,7 +10,7 @@ const Books = (props) => {
             <h2>Course name: {name}</h2>
             <p>Author name: {author}</p>
             <p>Price: ${price}</p>
-            
+            <button className="btn">But Now</button>
             </div>
     );
 };

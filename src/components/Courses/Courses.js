@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import { Link } from 'react-router-dom';
 import Books from '../Books/Books';
 import './Courses.css'
 
@@ -8,7 +9,7 @@ const Courses = () => {
     useEffect(() => {
         fetch('./data.JSON')
             .then(res => res.json())
-            .then(data => setBooks(data))
+            .then(data => setBooks(data.slice(0,3)))
     }, []);
     return (
         <div className="books-container">
@@ -23,6 +24,7 @@ const Courses = () => {
                         </Books>)
             }
             </div>
+            <Link to="/allcourses"><button className="btn">View All</button></Link>
             </div>
             );
 };

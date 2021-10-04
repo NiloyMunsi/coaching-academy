@@ -14,3 +14,9 @@
     padding: 5px;
     border-radius: 5px;
 }
+.btn{
+    padding: 10px 20px;
+    color: white;
+    background-color: sienna;
+    border-radius: 5px;
+}

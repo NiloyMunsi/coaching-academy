@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import { Link } from 'react-router-dom';
 import Person from '../Person/Person';
 import './About.css'
 
@@ -7,7 +8,7 @@ const About = () => {
     useEffect(() => {
         fetch('./about.JSON')
             .then(res => res.json())
-        .then(data=>setAbout(data))
+        .then(data=>setAbout(data.slice(0,4)))
     },[])
     return (
         
@@ -22,7 +23,8 @@ const About = () => {
                     
                     </Person>)
         }
-        </div>
+            </div>
+            <Link to="/allaboutus"><button className="btn">View All</button></Link>
         </div>
         );
 };

@@ -8,6 +8,8 @@ import Notfound from './components/Notfound/Notfound';
 import Navbar from './components/Navbar/Navbar';
 import Contact from './components/Contact/Contact';
 import Services from './components/Services/Services';
+import Allcourses from './components/Allcourses/Allcourses';
+import Allaboutus from './components/Allaboutus/Allaboutus';
 
 function App() {
   return (
@@ -21,11 +23,11 @@ function App() {
           <Route path="/home">
           <Home></Home>
           </Route>
-          <Route path="/about">
-            <About></About>
+          <Route path="/allaboutus">
+            <Allaboutus></Allaboutus>
           </Route>
-          <Route path="/courses">
-            <Courses></Courses>
+          <Route path="/allcourses">
+            <Allcourses></Allcourses>
           </Route>
           <Route path="/services">
             <Services></Services>
