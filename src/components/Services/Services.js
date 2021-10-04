@@ -23,10 +23,6 @@ const Services = () => {
                     <h3>Make Team</h3>
                 <img src={support3} alt="" />
             </div>
-                <div>
-                    <h3>24/7 hour services</h3>
-                <img src={support4} alt="" />
-            </div>
             </div>
         </div>
     

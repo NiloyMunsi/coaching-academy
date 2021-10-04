@@ -1,6 +1,6 @@
 import React from 'react';
 import './Contact.css';
-import photo from '../../images/contact.jpg'
+import photo from '../../images/connect-1.jpg'
 
 const Contact = () => {
     return (
