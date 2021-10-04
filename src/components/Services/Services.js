@@ -11,10 +11,22 @@ const Services = () => {
         <div>
             <h1>Our Supports</h1>
             <div className="support">
-            <img src={support} alt="" />
-            <img src={support2} alt="" />
-            <img src={support3} alt="" />
-            <img src={support4} alt="" />
+                <div>
+                    <h3>One to One support</h3>
+                <img src={support} alt="" />
+            </div>
+                <div>
+                    <h3>Help each others</h3>
+                <img src={support2} alt="" />
+            </div>
+                <div>
+                    <h3>Make Team</h3>
+                <img src={support3} alt="" />
+            </div>
+                <div>
+                    <h3>24/7 hour services</h3>
+                <img src={support4} alt="" />
+            </div>
             </div>
         </div>
     
