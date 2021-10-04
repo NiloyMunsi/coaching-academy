@@ -1,23 +1,14 @@
-*{
-    
-}
 .header-container{
     display: grid;
     grid-template-columns: repeat(2,1fr);
-    background-color: #a98467;
+    background-image: url('../../images/background-2.jpg');
 }
+
 .hd img{
     height: 725px;
     width: 1000px;
 }
 .head{
-    /* margin-top: 200px; */
     font-size: large;
     padding: 20px;
-}
-.title{
-    background-color: #6c584c;
-    margin: 0;
-    padding: 20px;
-    color: #f4a259;
 }

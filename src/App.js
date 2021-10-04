@@ -1,20 +1,23 @@
-
 import './App.css';
-import Header from './components/Header/Header';
 import { BrowserRouter ,Switch ,Route} from 'react-router-dom';
 import About from './components/About/About';
 import Home from './components/Home/Home';
 import Footer from './components/Footer/Footer';
 import Courses from './components/Courses/Courses';
 import Notfound from './components/Notfound/Notfound';
+import Navbar from './components/Navbar/Navbar';
+import Contact from './components/Contact/Contact';
 
 function App() {
   return (
     <div className="App">
       <BrowserRouter>
-        <Header></Header>
+        <Navbar></Navbar>
         <Switch>
-          <Route path="/">
+        <Route exact path="/">
+          <Home></Home>
+          </Route>
+          <Route path="/home">
           <Home></Home>
           </Route>
           <Route path="/about">
@@ -22,6 +25,9 @@ function App() {
           </Route>
           <Route path="/courses">
             <Courses></Courses>
+          </Route>
+          <Route path="/contact">
+            <Contact></Contact>
           </Route>
           <Route path="*">
             <Notfound></Notfound>

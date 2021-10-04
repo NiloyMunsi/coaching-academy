@@ -1,10 +1,15 @@
 import React from 'react';
-import './Contact.css'
+import './Contact.css';
+import photo from '../../images/contact.jpg'
 
 const Contact = () => {
     return (
         <div>
-            <h1>contact</h1>
+            <h1>Contact With Us</h1>
+
+            <div className="cover">
+                <img src={photo} alt="" />
+            </div>
         </div>
     );
 };
