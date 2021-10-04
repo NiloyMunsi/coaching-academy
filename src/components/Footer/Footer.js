@@ -20,7 +20,7 @@ const Footer = () => {
             <div>
                 <h3>Contact Us</h3>
                 <p>3/B, 4th Floor, Plot, Rd 16/A</p>
-                <p>01733 426627</p>
+                <p>+88017-33426627</p>
             </div>
             <div>
                 <h3>Useful Links</h3>

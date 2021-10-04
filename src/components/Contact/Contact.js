@@ -5,7 +5,7 @@ import photo from '../../images/contact.jpg'
 const Contact = () => {
     return (
         <div>
-            <h1>Contact With Us</h1>
+            <h1>Connect With Us</h1>
 
             <div className="cover">
                 <img src={photo} alt="" />

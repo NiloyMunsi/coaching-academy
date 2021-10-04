@@ -3,6 +3,7 @@ import About from '../About/About';
 import Contact from '../Contact/Contact';
 import Courses from '../Courses/Courses';
 import Header from '../Header/Header';
+import Services from '../Services/Services';
 import './Home.css'
 
 const Home = () => {
@@ -11,6 +12,7 @@ const Home = () => {
             <Header></Header>
             <Courses></Courses>
             <About></About>
+            <Services></Services>   
             <Contact></Contact>  
         </div>
     );

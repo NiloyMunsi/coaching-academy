@@ -1,0 +1,8 @@
+.support{
+    display: flex;
+    height: 400px;
+}
+.support img{
+    height: 300px;
+    width: 400px;
+}
